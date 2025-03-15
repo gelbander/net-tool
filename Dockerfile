@@ -6,6 +6,7 @@ RUN set -ex \
     && apk add --no-cache \
     bash \
     curl \
+    jq \
     vim \
     zsh \
     # Clean up
