@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - "Dockerfile"
+  # Allow manual triggering
+  workflow_dispatch:
 
 permissions:
   contents: read
